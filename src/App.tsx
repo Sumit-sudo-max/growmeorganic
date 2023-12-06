@@ -8,7 +8,7 @@ const App: React.FC = () => {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<FirstPage/>} />
+        <Route path="/growmeorganic" element={<FirstPage/>} />
         <Route path="/second-page" element={<SecondPage/>}/>
       </Routes>
     </Router>
